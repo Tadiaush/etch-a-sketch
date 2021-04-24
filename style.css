@@ -1,0 +1,13 @@
+.grid-element{
+    float: left;
+    clear: right;
+    padding: 20px;
+    border: 2px solid black; 
+    /* margin: 2%; */
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
